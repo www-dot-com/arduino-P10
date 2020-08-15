@@ -29,7 +29,7 @@ void loop(void) {
   //dmd.selectFont(SystemFont5x7);
 
   //-----------------------------------------------------------By using "millis()"
-  Text = "GAMER";
+  Text = "ΕΥΑΓΓΕΛΟΣ";
   dmd.drawMarquee(Text,strlen(Text),(32*DISPLAYS_ACROSS)-1,0);
   long start=millis();
   long timer=start;
